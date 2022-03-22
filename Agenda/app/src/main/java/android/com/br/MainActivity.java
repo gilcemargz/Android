@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         //TextView aluno = new TextView(this);
         //aluno.setText("Oĺa Gilcemar");
         setContentView(R.layout.activity_main);
-        List<String> alunos = new ArrayList<String>(Arrays.asList("Gil", "Jackson","Julia"));
+        List<String> alunos = new ArrayList<String>(Arrays.asList("PB", "é melhor que","Java"));
 
         ListView viewAlunos = findViewById(R.id.acitivity_main_lista_alunos);
 
